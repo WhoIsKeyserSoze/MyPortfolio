@@ -9,7 +9,7 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                 <div className="left">
                     <a href="#intro" className="logo">|FxG|</a>
                     <Mail classname="icon" />
-                        <span>gabriel.foix@ynov.com</span>
+                        <span id="email">gabriel.foix@ynov.com</span>
                         <a href="https://www.linkedin.com/in/gabriel-foix-0bb121214"><LinkedIn className="icon" id="iconeLinkedin" fontSize="large" color="inherit" /></a>
                     
                     
