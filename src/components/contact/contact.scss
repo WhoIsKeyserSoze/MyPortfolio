@@ -1,3 +1,48 @@
-.contact{
-    background-color: #1A1A1D;
+@import "../../global.scss";
+
+.contact {
+    background-color: rgb(33, 33, 33);
+    display: flex;
+
+    .left {
+        flex: 1;
+            
+
+            .imgContainer{
+                width: 900px;
+                height: 900px;
+                overflow: hidden;
+
+                img{
+                    //width: 95%;
+                    align-items: flex-start;
+                    //border-radius: 40%;
+                    opacity: 0.3
+                }
+            }
+        overflow: hidden;
+
+        img {
+        height: 100%;
+        }
+    }
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+
+
+    h2 {
+      color:whitesmoke;
+    }
+    container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+    }
+  }
 }

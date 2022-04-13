@@ -7,10 +7,10 @@ export default function Topbar({menuOpen, setMenuOpen}) {
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">|FxG|</a>
-                    <Mail classname="icon" />
+                    <a href="#intro" className="logo"><img src="assets/logo.png" alt="a" /></a>
+                    <Mail classname="icon" id="iconemail"/>
                         <span id="email">gabriel.foix@ynov.com</span>
-                        <a href="https://www.linkedin.com/in/gabriel-foix-0bb121214"><LinkedIn className="icon" id="iconeLinkedin" fontSize="large" color="inherit" /></a>
+                        <a href="https://www.linkedin.com/in/gabriel-foix-0bb121214" target="_blank"><LinkedIn className="icon" id="iconeLinkedin" fontSize="large" color="inherit" /></a>
                     
                     
                 </div>
