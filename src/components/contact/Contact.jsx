@@ -27,7 +27,7 @@ export default function Contact() {
       <div className="left">
         <img src="assets/shake.svg" alt="" />
         <div className="imgContainer">
-            <img src="assets/backgroundIMG.png" alt="a" />
+            <img src="assets/msgbottle.png" alt="a" />
         </div>
       </div>
       <div className="right">

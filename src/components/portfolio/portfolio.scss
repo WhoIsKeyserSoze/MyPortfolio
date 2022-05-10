@@ -2,25 +2,9 @@
 
 .portfolio{
     display: flex;
+    background-color: rgb(33, 33, 33);
 
     .left{
-        flex: 0.5;
-        
-
-        .imgContainer{
-            width: 900px;
-            height: 900px;
-            overflow: hidden;
-
-            img{
-                //width: 95%;
-                align-items: flex-end;
-                //border-radius: 40%;
-                opacity: 0.3
-            }
-        }
-    }
-    .right{
         flex: 0.5;
         .wrapper{
             color: white; 
@@ -39,6 +23,27 @@
             h2{
                 font-size: 35px;
                 color : whitesmoke;
+            }
+        }
+    }
+    .right{
+        
+
+
+        flex: 0.5;
+        overflow: hidden;
+        
+
+        .imgContainer{
+            width: 900px;
+            height: 900px;
+            overflow: hidden;
+
+            img{
+                //width: 95%;
+                align-items: flex-end;
+                //border-radius: 40%;
+                opacity: 0.3
             }
         }
         
